@@ -2,11 +2,11 @@
 
 # Package version is static and should be aligned with engine version that is
 # used to build maven cache
-PKG_VERSION="4.5.5"
+PKG_VERSION="4.5.4.1"
 
 # Either a branch name or a specific tag in ovirt-engine project for which
 # the maven cache is built
-ENGINE_VERSION="master"
+ENGINE_VERSION="ovirt-engine-4.5.4.1"
 
 # Additional dependencies, which are going to be added to engine and which need
 # to be included in ovirt-engine-build-dependencies, so proper build can pass
@@ -31,7 +31,7 @@ LOCAL_MAVEN_REPO="$(pwd)/repository"
 [ -d rpmbuild/SOURCES ] || mkdir -p rpmbuild/SOURCES
 
 # Fetch required engine version
-git clone https://github.com/oVirt/ovirt-engine
+git clone https://github.com/dupondje/ovirt-engine
 cd ovirt-engine
 
 # Mark current directory as safe for git to be able to execute git commands
