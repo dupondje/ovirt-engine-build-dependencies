@@ -2,11 +2,11 @@
 
 # Package version is static and should be aligned with engine version that is
 # used to build maven cache
-PKG_VERSION="4.5.4.1"
+PKG_VERSION="4.5.4.2"
 
 # Either a branch name or a specific tag in ovirt-engine project for which
 # the maven cache is built
-ENGINE_VERSION="ovirt-engine-4.5.4.1"
+ENGINE_VERSION="ovirt-engine-4.5.4.2"
 
 # Additional dependencies, which are going to be added to engine and which need
 # to be included in ovirt-engine-build-dependencies, so proper build can pass
